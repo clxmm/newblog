@@ -7,7 +7,7 @@ set -e
 npm run docs:build
 
 # 进入生成的文件夹
-cd clxmm.github.io
+cd clxmm
 
 # 如果是发布到自定义域名
 echo 'www.clxmm.org' > CNAME
