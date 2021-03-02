@@ -13,38 +13,57 @@ module.exports = {
                 { text: 'java相关',
                     items: [
                         { text: 'java日志', link: '/java-about/java-log/01log' },
-                        { text: 'java与opc通信', link: '/java/java-opc/01lgo' }
+                        { text: 'java杂七杂八', link: '/java-about/04java-about/01jwt' },
+                       
+                    ]
+                },
+                { text: 'springCloud相关',
+                    items: [
+                        { text: 'springCloud相关', link: '/java-about/05spring-cloud/01gateway' },
                     ]
                 }
+
         ],
-        sidebar: [ 
-            {
-                title: 'Java',
-                path: '/java-about/',
-                collapsable: true,
-                sidebarDepth: 2,
-                displayAllHeaders: true,
-                children: [
-                    '/java-about/java-log/01log',
-                    '/java-about/java-log/02log',
-                    '/java-about/02mp/01mp',
-                    '/java-about/02mp/02mp',
-                ]
-            },
-            {
-                '/java-about/java-log/': [
-                    {
-                        title: '生活测试',
-                        collapsable: true,
-                        children: [
-                            { title: '生活测试01', path: '/java-about/java-log/01log' },
-                        ]
-                    }
-                ],
-            }
-            
-        ],
-        sidebarDepth: 2,
+        sidebar: {
+            "/java-about/java-log/":[ 
+                {
+                    title: 'Java',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/java-about/java-log/01log',
+                        '/java-about/java-log/02log',
+                        '/java-about/02mp/01mp',
+                        '/java-about/02mp/02mp',
+                        '/java-about/03java/01synchronized',
+                    ]
+                },  
+            ],
+            "/java-about/05spring-cloud/":[
+                {
+                    title: 'springCloud',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/java-about/05spring-cloud/01gateway',
+                        
+                    ]
+                },
+            ],
+            "/java-about/04java-about/":[
+                {
+                    title: 'java杂七杂八',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/java-about/04java-about/01jwt',
+                        '/java-about/04java-about/02about',
+                    ]
+                },
+            ],
+        },
+        sidebarDepth: 2,//左侧导航显示的层级
         lastUpdated: 'Last Updated'
+ 
     },
 }

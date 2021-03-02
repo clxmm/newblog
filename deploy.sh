@@ -14,7 +14,7 @@ echo 'www.clxmm.org' > CNAME
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m '网关'
 
 # 如果发布到 https://<USERNAME>.github.io
 git push -f https://github.com/clxmm/clxmm.github.io master
