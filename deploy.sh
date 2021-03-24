@@ -7,16 +7,16 @@ set -e
 npm run docs:build
 
 # 进入生成的文件夹
-cd clxmm
+# cd clxmm
 
-# 如果是发布到自定义域名
-echo 'www.clxmm.org' > CNAME
+# # 如果是发布到自定义域名
+# echo 'www.clxmm.org' > CNAME
 
-git init
-git add -A
-git commit -m '网关'
+# git init
+# git add -A
+# git commit -m 'treemap'
 
-# 如果发布到 https://<USERNAME>.github.io
-git push -f https://github.com/clxmm/clxmm.github.io master
+# # 如果发布到 https://<USERNAME>.github.io
+# git push -f https://github.com/clxmm/clxmm.github.io master
 
-cd -
+# cd -
