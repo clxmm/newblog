@@ -77,6 +77,7 @@ module.exports = {
                         '/java-about/04java-about/01jwt',
                         '/java-about/04java-about/02about',
                         '/java-about/04java-about/03nginx',
+                        '/java-about/04java-about/04images',
                     ]
                 },
             ],
