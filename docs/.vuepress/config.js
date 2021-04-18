@@ -23,7 +23,12 @@ module.exports = {
                     items: [
                         { text: 'springCloud相关', link: '/java-about/05spring-cloud/01gateway' },
                     ]
-                }
+                },
+                { text: 'web',
+                items: [
+                    { text: 'web基础', link: '/web/01web/01web01' },
+                ]
+            }
 
         ],
         sidebar: {
@@ -78,6 +83,28 @@ module.exports = {
                         '/java-about/04java-about/02about',
                         '/java-about/04java-about/03nginx',
                         '/java-about/04java-about/04images',
+                    ]
+                },
+            ],
+            "/web/01web/":[
+                {
+                    title: 'web基础',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/web/01web/01web01',
+                        '/web/01web/02web',
+                        '/web/01web/03webcss1',
+                        '/web/01web/03webemmet',
+                        '/web/01web/04webcss',
+                        '/web/01web/05webcss',
+                        '/web/01web/06webcss',
+                        '/web/01web/07webcss',
+                        '/web/01web/08webcss',
+                        '/web/01web/09webcss',
+                        '/web/01web/010webcss',
+                        
+                       
                     ]
                 },
             ],
