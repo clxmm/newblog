@@ -27,6 +27,7 @@ module.exports = {
                 { text: 'web',
                 items: [
                     { text: 'web基础', link: '/web/01web/01web01' },
+                    { text: 'js基础', link: '/web/02js/01js' },
                 ]
             }
 
@@ -83,6 +84,25 @@ module.exports = {
                         '/java-about/04java-about/02about',
                         '/java-about/04java-about/03nginx',
                         '/java-about/04java-about/04images',
+                        '/java-about/04java-about/05webservice',
+                        '/java-about/04java-about/06',
+                    ]
+                },
+            ],
+            "/web/02js/":[
+                {
+                    title: 'js基础',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/web/02js/01js',
+                        '/web/02js/02js',
+                        '/web/02js/03js',
+                        '/web/02js/04js',
+                        '/web/02js/05js',
+                        '/web/02js/06js',
+                        '/web/02js/07js',
+                        '/web/02js/08webapi',
                     ]
                 },
             ],
@@ -103,8 +123,7 @@ module.exports = {
                         '/web/01web/08webcss',
                         '/web/01web/09webcss',
                         '/web/01web/010webcss',
-                        
-                       
+                        '/web/01web/011webcss',
                     ]
                 },
             ],
