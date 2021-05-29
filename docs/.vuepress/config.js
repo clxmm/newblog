@@ -2,7 +2,7 @@ module.exports = {
     title: 'clxmm',// 设置网站标题
     description: 'clxmm',
     base: '/',// 设置站点根路径
-    dest: './clxmm',  // 设置输出目录
+    dest: './clxm',  // 设置输出目录
     head: [],
     plugins: [],
     themeConfig: {
@@ -15,6 +15,7 @@ module.exports = {
                         { text: 'java日志', link: '/java-about/java-log/01log' },
                         { text: 'java杂七杂八', link: '/java-about/04java-about/01jwt' },
                         { text: 'java', link: '/java-about/03java/01synchronized' },
+                        { text: 'shiro', link: '/java-about/06app/01shiro/01' },
                         
                        
                     ]
@@ -74,6 +75,24 @@ module.exports = {
                 }, 
 
             ],
+            // shiro
+            "/java-about/06app/01shiro/":[
+                {
+                    title: 'shiro',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/java-about/06app/01shiro/01',
+                        '/java-about/06app/01shiro/02',
+                        '/java-about/06app/01shiro/03',
+                        '/java-about/06app/01shiro/04',
+                        '/java-about/06app/01shiro/05',
+                    ]
+                }, 
+
+            ],
+
+
             "/java-about/04java-about/":[
                 {
                     title: 'java杂七杂八',
@@ -86,6 +105,7 @@ module.exports = {
                         '/java-about/04java-about/04images',
                         '/java-about/04java-about/05webservice',
                         '/java-about/04java-about/06',
+                        '/java-about/04java-about/07gradle',
                     ]
                 },
             ],
@@ -103,6 +123,12 @@ module.exports = {
                         '/web/02js/06js',
                         '/web/02js/07js',
                         '/web/02js/08webapi',
+                        '/web/02js/09webapi',
+                        '/web/02js/010webapi',
+                        '/web/02js/011webapi',
+                        '/web/02js/012webapi',
+                        '/web/02js/013jquery',
+                        '/web/02js/014jquery',
                     ]
                 },
             ],
