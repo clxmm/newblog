@@ -16,6 +16,9 @@ module.exports = {
                         { text: 'java杂七杂八', link: '/java-about/04java-about/01jwt' },
                         { text: 'java', link: '/java-about/03java/01synchronized' },
                         { text: 'shiro', link: '/java-about/06app/01shiro/01' },
+                        { text: 'security', link: '/java-about/06app/02security/01' },
+                        { text: 'javaee', link: '/java-about/06app/03javaee/01' },
+                        
                         
                        
                     ]
@@ -26,11 +29,18 @@ module.exports = {
                     ]
                 },
                 { text: 'web',
-                items: [
-                    { text: 'web基础', link: '/web/01web/01web01' },
-                    { text: 'js基础', link: '/web/02js/01js' },
-                ]
-            }
+                    items: [
+                        { text: 'web基础', link: '/web/01web/01web01' },
+                        { text: 'js基础', link: '/web/02js/01js' },
+                    ]
+                },
+                { text: 'java 基础',
+                    items: [
+                        { text: 'java 基础', link: '/java-about/07javabase/01flux/01flux' },
+                        { text: 'java 基础1', link: '/java-about/07javabase/02base/01' },
+
+                    ]
+                }
 
         ],
         sidebar: {
@@ -87,6 +97,38 @@ module.exports = {
                         '/java-about/06app/01shiro/03',
                         '/java-about/06app/01shiro/04',
                         '/java-about/06app/01shiro/05',
+                        '/java-about/06app/01shiro/06',
+                        '/java-about/06app/01shiro/07',
+                    ]
+                }, 
+
+            ],
+
+            // security
+            "/java-about/06app/02security/":[
+                {
+                    title: 'security',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/java-about/06app/02security/01',
+                        '/java-about/06app/02security/02',
+                        '/java-about/06app/02security/03',
+                        '/java-about/06app/02security/04',
+                        '/java-about/06app/02security/05',
+                    ]
+                }, 
+
+            ],
+
+            // 03 Java ee
+            "/java-about/06app/03javaee/":[
+                {
+                    title: 'security',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/java-about/06app/03javaee/01',
                     ]
                 }, 
 
@@ -106,6 +148,7 @@ module.exports = {
                         '/java-about/04java-about/05webservice',
                         '/java-about/04java-about/06',
                         '/java-about/04java-about/07gradle',
+                        '/java-about/04java-about/08',
                     ]
                 },
             ],
@@ -153,9 +196,32 @@ module.exports = {
                     ]
                 },
             ],
+            "/java-about/07javaweb/01flux":[
+                {
+                    title: 'java 基础',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/java-about/07javabase/01flux/01flux',
+                        
+                    ]
+                },
+            ],
+
+            "/java-about/07javaweb/02base":[
+                {
+                    title: 'java 基础',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/java-about/07javabase/02base/01',
+                        
+                    ]
+                },
+            ],
         },
         sidebarDepth: 2,//左侧导航显示的层级
-        lastUpdated: 'Last Updated'
+        lastUpdated: 'Last Updated',
         // sidebar: 'auto'
  
     },
