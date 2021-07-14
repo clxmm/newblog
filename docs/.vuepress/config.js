@@ -196,7 +196,7 @@ module.exports = {
                     ]
                 },
             ],
-            "/java-about/07javaweb/01flux":[
+            "/java-about/07javabase/01flux/":[
                 {
                     title: 'java 基础',
                     collapsable: false,
@@ -208,13 +208,16 @@ module.exports = {
                 },
             ],
 
-            "/java-about/07javaweb/02base":[
+            "/java-about/07javabase/02base/":[
                 {
                     title: 'java 基础',
                     collapsable: false,
                     sidebarDepth: 2,
                     children: [
                         '/java-about/07javabase/02base/01',
+                        '/java-about/07javabase/02base/02thread',
+                        '/java-about/07javabase/02base/03thread',
+                        '/java-about/07javabase/02base/04mybatis',
                         
                     ]
                 },
