@@ -218,6 +218,7 @@ module.exports = {
                         '/java-about/07javabase/02base/02thread',
                         '/java-about/07javabase/02base/03thread',
                         '/java-about/07javabase/02base/04mybatis',
+                        '/java-about/07javabase/02base/05mybatis',
                         
                     ]
                 },
