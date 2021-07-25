@@ -631,7 +631,7 @@ ehcache。x m l
 ```
 
 
-
+- 实现mybatis 的cache接口
 
 
 

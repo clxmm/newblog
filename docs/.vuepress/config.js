@@ -18,9 +18,8 @@ module.exports = {
                         { text: 'shiro', link: '/java-about/06app/01shiro/01' },
                         { text: 'security', link: '/java-about/06app/02security/01' },
                         { text: 'javaee', link: '/java-about/06app/03javaee/01' },
+                        { text: 'shop', link: '/java-about/06app/04shop/01shop' },
                         
-                        
-                       
                     ]
                 },
                 { text: 'springCloud相关',
@@ -134,6 +133,19 @@ module.exports = {
 
             ],
 
+            // 04 shop
+            "/java-about/06app/03javaee/":[
+                {
+                    title: 'security',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/java-about/06app/04shop/01shop',
+                    ]
+                }, 
+
+            ],
+
 
             "/java-about/04java-about/":[
                 {
@@ -219,6 +231,8 @@ module.exports = {
                         '/java-about/07javabase/02base/03thread',
                         '/java-about/07javabase/02base/04mybatis',
                         '/java-about/07javabase/02base/05mybatis',
+                        '/java-about/07javabase/02base/06spring',
+                        '/java-about/07javabase/02base/07spring',
                         
                     ]
                 },
