@@ -31,6 +31,7 @@ module.exports = {
                     items: [
                         { text: 'web基础', link: '/web/01web/01web01' },
                         { text: 'js基础', link: '/web/02js/01js' },
+                        { text: 'vue基础', link: '/web/03vue/01vue' },
                     ]
                 },
                 { text: 'java 基础',
@@ -161,6 +162,7 @@ module.exports = {
                         '/java-about/04java-about/06',
                         '/java-about/04java-about/07gradle',
                         '/java-about/04java-about/08',
+                        '/java-about/04java-about/09设计原则',
                     ]
                 },
             ],
@@ -208,6 +210,18 @@ module.exports = {
                     ]
                 },
             ],
+            "/web/03vue/":[
+                {
+                    title: 'vue基础',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/web/03vue/01vue',
+                        '/web/03vue/02vue',
+
+                    ]
+                },
+            ],
             "/java-about/07javabase/01flux/":[
                 {
                     title: 'java 基础',
@@ -233,6 +247,8 @@ module.exports = {
                         '/java-about/07javabase/02base/05mybatis',
                         '/java-about/07javabase/02base/06spring',
                         '/java-about/07javabase/02base/07spring',
+                        '/java-about/07javabase/02base/08springmvc',
+                        '/java-about/07javabase/02base/09springmvc',
                         
                     ]
                 },
