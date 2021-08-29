@@ -218,6 +218,12 @@ module.exports = {
                     children: [
                         '/web/03vue/01vue',
                         '/web/03vue/02vue',
+                        '/web/03vue/03vue',
+                        '/web/03vue/04vue',
+                        '/web/03vue/05vue',
+                        '/web/03vue/06vue',
+                        '/web/03vue/07vue',
+                        '/web/03vue/08vue',
 
                     ]
                 },
