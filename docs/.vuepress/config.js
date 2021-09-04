@@ -224,6 +224,7 @@ module.exports = {
                         '/web/03vue/06vue',
                         '/web/03vue/07vue',
                         '/web/03vue/08vue',
+                        '/web/03vue/09vue',
 
                     ]
                 },

@@ -1,5 +1,5 @@
 ---
-title: 07 vue 介绍(路由)
+title: 07 vue ui
 ---
 
 ## 1 Vue UI 组件库
