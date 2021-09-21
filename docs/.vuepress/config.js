@@ -18,7 +18,7 @@ module.exports = {
                         { text: 'shiro', link: '/java-about/06app/01shiro/01' },
                         { text: 'security', link: '/java-about/06app/02security/01' },
                         { text: 'javaee', link: '/java-about/06app/03javaee/01' },
-                        { text: 'shop', link: '/java-about/06app/04shop/01shop' },
+                        { text: 'springboot', link: '/java-about/06app/04springboot/01' },
                         
                     ]
                 },
@@ -32,12 +32,14 @@ module.exports = {
                         { text: 'web基础', link: '/web/01web/01web01' },
                         { text: 'js基础', link: '/web/02js/01js' },
                         { text: 'vue基础', link: '/web/03vue/01vue' },
+                        { text: 'vlog', link: '/web/04vlog/01' },
                     ]
                 },
                 { text: 'java 基础',
                     items: [
                         { text: 'java 基础', link: '/java-about/07javabase/01flux/01flux' },
                         { text: 'java 基础1', link: '/java-about/07javabase/02base/01' },
+                        { text: '03java 基础nio', link: '/java-about/07javabase/03nio/01' },
 
                     ]
                 }
@@ -134,14 +136,14 @@ module.exports = {
 
             ],
 
-            // 04 shop
-            "/java-about/06app/03javaee/":[
+            // 04 springboot
+            "/java-about/06app/04springboot/":[
                 {
                     title: 'security',
                     collapsable: false,
                     sidebarDepth: 2,
                     children: [
-                        '/java-about/06app/04shop/01shop',
+                        '/java-about/06app/04springboot/01',
                     ]
                 }, 
 
@@ -229,6 +231,19 @@ module.exports = {
                     ]
                 },
             ],
+            // vlog
+            "/web/04vlog/":[
+                {
+                    title: 'vlog',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/web/04vlog/01',
+                    ]
+                },
+            ],
+
+
             "/java-about/07javabase/01flux/":[
                 {
                     title: 'java 基础',
@@ -260,6 +275,21 @@ module.exports = {
                     ]
                 },
             ],
+            // nio
+            "/java-about/07javabase/03nio/":[
+                {
+                    title: 'java 基础',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/java-about/07javabase/03nio/01',
+                        '/java-about/07javabase/03nio/02', 
+                        '/java-about/07javabase/03nio/03', 
+                        '/java-about/07javabase/03nio/04', 
+                    ]
+                },
+            ],
+
         },
         sidebarDepth: 2,//左侧导航显示的层级
         lastUpdated: 'Last Updated',
