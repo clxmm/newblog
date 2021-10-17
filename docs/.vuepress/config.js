@@ -271,6 +271,11 @@ module.exports = {
                         '/java-about/07javabase/02base/07spring',
                         '/java-about/07javabase/02base/08springmvc',
                         '/java-about/07javabase/02base/09springmvc',
+                        '/java-about/07javabase/02base/010单一职责.md',
+                        '/java-about/07javabase/02base/011开闭原则.md',
+                        '/java-about/07javabase/02base/012uml.md',
+                        '/java-about/07javabase/02base/013设计模式1',
+                        '/java-about/07javabase/02base/014工厂模式'
                         
                     ]
                 },
