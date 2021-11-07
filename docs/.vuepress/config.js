@@ -40,6 +40,7 @@ module.exports = {
                         { text: 'java 基础', link: '/java-about/07javabase/01flux/01flux' },
                         { text: 'java 基础1', link: '/java-about/07javabase/02base/01' },
                         { text: '03java 基础nio', link: '/java-about/07javabase/03nio/01' },
+                        { text: '04cloud', link: '/java-about/07javabase/04cloud2021/01' },
 
                     ]
                 }
@@ -275,7 +276,11 @@ module.exports = {
                         '/java-about/07javabase/02base/011开闭原则.md',
                         '/java-about/07javabase/02base/012uml.md',
                         '/java-about/07javabase/02base/013设计模式1',
-                        '/java-about/07javabase/02base/014工厂模式'
+                        '/java-about/07javabase/02base/014工厂模式',
+                        '/java-about/07javabase/02base/015原型模式',
+                        '/java-about/07javabase/02base/016适配器模式',
+                        '/java-about/07javabase/02base/017桥接模式',
+                        '/java-about/07javabase/02base/018组合模式'
                         
                     ]
                 },
@@ -294,6 +299,20 @@ module.exports = {
                     ]
                 },
             ],
+            // cloud
+            "/java-about/07javabase/04cloud2021/":[
+                {
+                    title: 'java 基础',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/java-about/07javabase/04cloud2021/01',
+                        '/java-about/07javabase/04cloud2021/02',
+                        
+                    ]
+                },
+            ],
+
 
         },
         sidebarDepth: 2,//左侧导航显示的层级
