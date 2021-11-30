@@ -280,7 +280,12 @@ module.exports = {
                         '/java-about/07javabase/02base/015原型模式',
                         '/java-about/07javabase/02base/016适配器模式',
                         '/java-about/07javabase/02base/017桥接模式',
-                        '/java-about/07javabase/02base/018组合模式'
+                        '/java-about/07javabase/02base/018组合模式',
+                        '/java-about/07javabase/02base/019享元模式',
+                        '/java-about/07javabase/02base/020代理模式',
+                        '/java-about/07javabase/02base/021命令模式',
+                        '/java-about/07javabase/02base/022观察者模式',
+                        '/java-about/07javabase/02base/023备忘录模式',
                         
                     ]
                 },
