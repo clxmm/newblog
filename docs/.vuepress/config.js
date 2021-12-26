@@ -228,6 +228,12 @@ module.exports = {
                         '/web/03vue/07vue',
                         '/web/03vue/08vue',
                         '/web/03vue/09vue',
+                        '/web/03vue/010vue',
+                        '/web/03vue/011day02',
+                        '/web/03vue/12day04',
+                        '/web/03vue/13day05vue',
+                        '/web/03vue/14vue',
+
 
                     ]
                 },
