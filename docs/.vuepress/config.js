@@ -41,6 +41,8 @@ module.exports = {
                         { text: 'java 基础1', link: '/java-about/07javabase/02base/01' },
                         { text: '03java 基础nio', link: '/java-about/07javabase/03nio/01' },
                         { text: '04cloud', link: '/java-about/07javabase/04cloud2021/01' },
+                        { text: '05study2022', link: '/java-about/07javabase/05study2022/01单列模式' },
+                        { text: '06mysql', link: '/java-about/07javabase/06mysql/01mysql' },
 
                     ]
                 }
@@ -233,8 +235,10 @@ module.exports = {
                         '/web/03vue/12day04',
                         '/web/03vue/13day05vue',
                         '/web/03vue/14vue',
-
-
+                        '/web/03vue/15ht',
+                        '/web/03vue/16dataV',
+                        '/web/03vue/16dataV',
+                        '/web/03vue/17dataVecharts',
                     ]
                 },
             ],
@@ -320,6 +324,32 @@ module.exports = {
                         '/java-about/07javabase/04cloud2021/01',
                         '/java-about/07javabase/04cloud2021/02',
                         
+                    ]
+                },
+            ],
+             // 05study2022
+             "/java-about/07javabase/05study2022/":[
+                {
+                    title: 'java 基础',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/java-about/07javabase/05study2022/01单列模式',
+            
+                    ]
+                },
+            ],
+              // 06mysql
+              "/java-about/07javabase/06mysql/":[
+                {
+                    title: 'java 基础',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/java-about/07javabase/06mysql/01mysql',
+                        '/java-about/07javabase/06mysql/02mysql',
+                        '/java-about/07javabase/06mysql/03多表查询',
+            
                     ]
                 },
             ],
