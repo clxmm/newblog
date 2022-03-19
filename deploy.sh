@@ -10,7 +10,7 @@ npm run docs:build
 # cd clxmm
 
 # # 如果是发布到自定义域名
-# echo 'www.clxmm.org' > CNAME
+# echo 'www.clcmm.org' > CNAME
 
 # git init
 # git add -A
