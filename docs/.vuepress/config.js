@@ -43,6 +43,8 @@ module.exports = {
                         { text: '04cloud', link: '/java-about/07javabase/04cloud2021/01' },
                         { text: '05study2022', link: '/java-about/07javabase/05study2022/01单列模式' },
                         { text: '06mysql', link: '/java-about/07javabase/06mysql/01mysql' },
+                        { text: '07mybatis', link: '/java-about/07javabase/07mybatis/01mybatis' },
+                        { text: '08spring', link: '/java-about/07javabase/08spring/01spring' },
 
                     ]
                 }
@@ -377,6 +379,53 @@ module.exports = {
                         '/java-about/07javabase/06mysql/29MySQL事务日志',
                         '/java-about/07javabase/06mysql/30锁',
             
+                    ]
+                },
+            ],
+
+            // 07mybatis 
+            "/java-about/07javabase/07mybatis/":[
+                {
+                    title: 'mybatis 基础',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/java-about/07javabase/07mybatis/01mybatis',
+                        '/java-about/07javabase/07mybatis/02mybatis全局文件加载',
+                        '/java-about/07javabase/07mybatis/03mapper映射文件',
+                        '/java-about/07javabase/07mybatis/04映射-mapper.xml的解析机制',
+                        '/java-about/07javabase/07mybatis/05基本注解的使用',
+                        '/java-about/07javabase/07mybatis/06Provider系列注解',
+                        '/java-about/07javabase/07mybatis/07注解Mapper接口的解析机制',
+                        '/java-about/07javabase/07mybatis/08一级缓存的设计与原理',
+                        '/java-about/07javabase/07mybatis/09二级缓存的设计与原理',
+                        '/java-about/07javabase/07mybatis/10MyBatis内部的事务控制',
+                        '/java-about/07javabase/07mybatis/11MyBatis的插件模块',
+                        '/java-about/07javabase/07mybatis/12MyBatis的日志模块设计',
+                        '/java-about/07javabase/07mybatis/13MyBatis中的一些API',
+                        '/java-about/07javabase/07mybatis/14整合Spring',
+                        '/java-about/07javabase/07mybatis/15生命周期-整体概述',
+                        '/java-about/07javabase/07mybatis/16生命周期-加载全局配置文件',
+                        '/java-about/07javabase/07mybatis/17生命周期-加载Mapperxml与注解Mapper定义',
+                        '/java-about/07javabase/07mybatis/18生命周期-SqlSession执行',
+                        '/java-about/07javabase/07mybatis/19生命周期-动态SQL的参数绑定与执行',
+                        '/java-about/07javabase/07mybatis/20生命周期-结果集的封装与映射',
+                        '/java-about/07javabase/07mybatis/21生命周期-Mapper动态代理类执行流程原理',
+                        '/java-about/07javabase/07mybatis/22生命周期-自定义插件的执行流程原理',
+                        '/java-about/07javabase/07mybatis/23MyBatis中的设计模式-工厂方法、建造器模式',
+        
+                    ]
+                },
+            ],
+
+            // 08spring 
+            "/java-about/07javabase/08spring/":[
+                {
+                    title: 'spring 基础',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        '/java-about/07javabase/08spring/01spring',        
                     ]
                 },
             ],
