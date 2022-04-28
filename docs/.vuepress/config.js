@@ -88,6 +88,8 @@ module.exports = {
                         '/java-about/03java/04nio',
                         '/java-about/03java/05treeMap',
                         '/java-about/03java/06thread',
+                        '/java-about/03java/07redis',
+                        '/java-about/03java/08redis',
                     ]
                 }, 
 
@@ -123,6 +125,9 @@ module.exports = {
                         '/java-about/06app/02security/03',
                         '/java-about/06app/02security/04',
                         '/java-about/06app/02security/05',
+                        '/java-about/06app/02security/10security',
+                        '/java-about/06app/02security/11security',
+                        '/java-about/06app/02security/12security',
                     ]
                 }, 
 
@@ -149,6 +154,9 @@ module.exports = {
                     sidebarDepth: 2,
                     children: [
                         '/java-about/06app/04springboot/01',
+                        '/java-about/06app/04springboot/02rabbitmq',
+                        '/java-about/06app/04springboot/03abbitmq',
+                        '/java-about/06app/04springboot/04abbitmq',
                     ]
                 }, 
 
@@ -425,7 +433,20 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 2,
                     children: [
-                        '/java-about/07javabase/08spring/01spring',        
+                        '/java-about/07javabase/08spring/01spring',    
+                        '/java-about/07javabase/08spring/02spring源码环境本地测试', 
+                        '/java-about/07javabase/08spring/03spring配置文件的加载',
+                        '/java-about/07javabase/08spring/04spring概述', 
+                        '/java-about/07javabase/08spring/05spring注解驱动', 
+                        '/java-about/07javabase/08spring/06IOC基础-依赖注入', 
+                        '/java-about/07javabase/08spring/07IOC进阶-依赖注入-回调注入和延迟注入', 
+                        '/java-about/07javabase/08spring/08IOC基础-Bean常见的几种类型与Bean的作用域', 
+                        '/java-about/07javabase/08spring/09IOC基础-Bean的实例化方式', 
+                        '/java-about/07javabase/08spring/10IOC基础-Bean的生命周期-初始化与销毁', 
+                        '/java-about/07javabase/08spring/11IOC进阶-IOC容器的详细对比-BeanFactory', 
+                        '/java-about/07javabase/08spring/12IOC进阶-IOC容器的详细对比-ApplicationContext', 
+
+
                     ]
                 },
             ],

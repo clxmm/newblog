@@ -34,3 +34,68 @@ title: 07 gradle
 
 [https://services.gradle.org/distributions/](https://services.gradle.org/distributions/)
 
+## 2:Groovy语言
+
+```groovy
+// groovy
+println("hello world");
+
+// 省略分号
+// 省略括号
+
+println "hello groovy"
+
+// groovy 定义变量
+// def 弱类型，groovy根据情况来赋予相应的类型
+def i = 18;
+println i
+
+def s = "hello world"
+println s
+
+
+// 1 定义集合
+def list = ['a','b']
+list << 'c'
+println list[2]
+
+
+// 2定义map
+def map = ['k1':'v1','k2':'v2']
+map.k3 = 'v3'
+println map.get('k3')
+println map.k3
+
+
+
+// 3 groovy 闭包
+// 什么是闭包？闭包其实就是一段代码块，在gradle中，主要是把闭包当参数使用
+// 定义闭包
+def b1 = {
+    println 'hello b1'
+}
+
+// 定义方法，参数为闭包类型
+def  method1 (Closure closure) {
+    closure()
+}
+
+// 调用
+method1 (b1)
+
+
+def b2 = {
+    v ->
+        println "hello ${v}"
+
+}
+
+def  method2(Closure closure) {
+    closure("clxmm")
+}
+
+method2(b2)
+
+
+```
+
