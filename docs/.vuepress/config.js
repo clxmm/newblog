@@ -155,8 +155,8 @@ module.exports = {
                     children: [
                         '/java-about/06app/04springboot/01',
                         '/java-about/06app/04springboot/02rabbitmq',
-                        '/java-about/06app/04springboot/03abbitmq',
-                        '/java-about/06app/04springboot/04abbitmq',
+                        '/java-about/06app/04springboot/03rabbitmq',
+                        '/java-about/06app/04springboot/04rabbitmq',
                     ]
                 }, 
 
@@ -445,6 +445,20 @@ module.exports = {
                         '/java-about/07javabase/08spring/10IOC基础-Bean的生命周期-初始化与销毁', 
                         '/java-about/07javabase/08spring/11IOC进阶-IOC容器的详细对比-BeanFactory', 
                         '/java-about/07javabase/08spring/12IOC进阶-IOC容器的详细对比-ApplicationContext', 
+                        '/java-about/07javabase/08spring/13IOC进阶-事件机制&监听器',
+                        '/java-about/07javabase/08spring/14IOC进阶-模块装配',
+                        '/java-about/07javabase/08spring/15IOC进阶-条件装配',
+                        '/java-about/07javabase/08spring/15IOC进阶-组件扫描高级',
+                        '/java-about/07javabase/08spring/16IOC进阶-资源管理',
+                        '/java-about/07javabase/08spring/17IOC进阶-PropertySource的使用',
+                        '/java-about/07javabase/08spring/18IOC高级-配置源&配置元信息',
+                        '/java-about/07javabase/08spring/19IOC高级-Environment抽象',
+                        '/java-about/07javabase/08spring/20IOC高级-Bean与BeanDefinition',
+                        '/java-about/07javabase/08spring/21IOC高级-BeanDefinition与BeanDefinitionRegistry',
+                        '/java-about/07javabase/08spring/22IOC高级-后置处理器入门与使用',
+                        '/java-about/07javabase/08spring/23IOC高级-BeanPostProcessor的扩展及作用时机',
+
+                        
 
 
                     ]
