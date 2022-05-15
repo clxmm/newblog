@@ -457,6 +457,24 @@ module.exports = {
                         '/java-about/07javabase/08spring/21IOC高级-BeanDefinition与BeanDefinitionRegistry',
                         '/java-about/07javabase/08spring/22IOC高级-后置处理器入门与使用',
                         '/java-about/07javabase/08spring/23IOC高级-BeanPostProcessor的扩展及作用时机',
+                        '/java-about/07javabase/08spring/24IOC高级-BeanFactoryPostProcessor的使用',
+                        '/java-about/07javabase/08spring/25IOC高级-Java编程式驱动IOC',
+                        '/java-about/07javabase/08spring/26IOC高级-模块装配&条件装配综合使用',
+                        '/java-about/07javabase/08spring/27IOC高级-事件&监听器高级',
+                        '/java-about/07javabase/08spring/28IOC原理-Bean完整的生命周期概述',
+                        '/java-about/07javabase/08spring/29IOC原理-Bean的生命周期-BeanDefinition阶段',
+                        '/java-about/07javabase/08spring/38IOC总结&面试题整理',
+                        '/java-about/07javabase/08spring/39入门-AOP是怎么来的',
+                        '/java-about/07javabase/08spring/40AOP基础-原生动态代理与Cglib动态代理回顾',
+                        '/java-about/07javabase/08spring/41.AOP基础-AOP概述与术语',
+                        '/java-about/07javabase/08spring/42.AOP基础-基于xml的aspect实现AOP',
+                        '/java-about/07javabase/08spring/43AOP基础-基于AspectJ实现AOP',
+                        '/java-about/07javabase/08spring/44.AOP进阶-AOP的延伸知识和进阶使用',
+                        '/java-about/07javabase/08spring/45.AOP进阶-实战:AOP实现事务控制',
+                        '/java-about/07javabase/08spring/46.AOP高级-AOP的其他扩展知识',
+
+
+
 
                         
 
