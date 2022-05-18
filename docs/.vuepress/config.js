@@ -472,6 +472,14 @@ module.exports = {
                         '/java-about/07javabase/08spring/44.AOP进阶-AOP的延伸知识和进阶使用',
                         '/java-about/07javabase/08spring/45.AOP进阶-实战:AOP实现事务控制',
                         '/java-about/07javabase/08spring/46.AOP高级-AOP的其他扩展知识',
+                        '/java-about/07javabase/08spring/47.AOP高级-如果我们自己实现一个AOP',
+                        '/java-about/07javabase/08spring/48.AOP原理-AOP代理的底层核心后置处理器',
+                        '/java-about/07javabase/08spring/52.AOP总结&面试题整理',
+                        '/java-about/07javabase/08spring/53.入门-Spring整合jdbc与JdbcTemplate快速使用',
+                        '/java-about/07javabase/08spring/54dbcTemplate在Dao层的使用方式',
+                        '/java-about/07javabase/08spring/55.Dao编程基础-事务回顾&原生jdbc事务',
+                        '/java-about/07javabase/08spring/55.Dao编程基础-事务回顾&原生jdbc事务',
+
 
 
 
