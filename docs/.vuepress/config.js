@@ -345,6 +345,14 @@ module.exports = {
                     sidebarDepth: 2,
                     children: [
                         '/java-about/07javabase/05study2022/01单列模式',
+                        '/java-about/07javabase/05study2022/02高可用系统设计',
+                        '/java-about/07javabase/05study2022/03spring事物',
+                        '/java-about/07javabase/05study2022/04stu01',
+                        '/java-about/07javabase/05study2022/05study02',
+                        '/java-about/07javabase/05study2022/06study03',
+                        '/java-about/07javabase/05study2022/07stydy',
+                        '/java-about/07javabase/05study2022/08stydy',
+                        '/java-about/07javabase/05study2022/09study',
             
                     ]
                 },
@@ -478,7 +486,14 @@ module.exports = {
                         '/java-about/07javabase/08spring/53.入门-Spring整合jdbc与JdbcTemplate快速使用',
                         '/java-about/07javabase/08spring/54dbcTemplate在Dao层的使用方式',
                         '/java-about/07javabase/08spring/55.Dao编程基础-事务回顾&原生jdbc事务',
-                        '/java-about/07javabase/08spring/55.Dao编程基础-事务回顾&原生jdbc事务',
+                        '/java-about/07javabase/08spring/56.Dao编程基础-编程式事务',
+                        '/java-about/07javabase/08spring/57.Dao编程基础-声明式事务',
+                        '/java-about/07javabase/08spring/58.Dao编程基础-事务传播行为',
+                        '/java-about/07javabase/08spring/59.Dao编程进阶-JdbcTemplate的扩展与高级使用',
+                        '/java-about/07javabase/08spring/60.Dao编程进阶-Spring中的事务控制模型',
+                        '/java-about/07javabase/08spring/61Dao编程总结',
+                        '/java-about/07javabase/08spring/62入门-Spring整合web与三层架构回顾',
+
 
 
 
